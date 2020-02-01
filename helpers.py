@@ -1,5 +1,5 @@
-from datapoint import DataPoint 
-from fusionekf import FusionEKF
+from ekf.datapoint import DataPoint 
+from ekf.fusionekf import FusionEKF
 
 def parse_data(file_path):
   """
